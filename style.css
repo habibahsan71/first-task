@@ -7,26 +7,30 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: orangered;
 }
 
-section {
+.flex-container {
     display: flex;
-    margin: 100px;
+    margin-bottom: 150px;
+
 }
 
-.half-width  {
+.half-width {
     width: 80%;
-    float: left;
-    
-    margin-left: 5%;
+
     padding-left: 2%;
+
 }
 
-.half-width img{
+.half-width img {
     width: 100%;
-   
+
 }
 
 .link-button {
@@ -37,17 +41,52 @@ section {
     font-weight: 700;
     border-radius: 5px;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
 }
-.dream-big{
-   background-image: url(images/dream-bg.png);
-   background-repeat: no-repeat;
-   background-position: right;
-   padding: 50px;
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 50px;
 }
-.h1-color{
+
+.h1-color {
     color: rgb(22, 128, 155);
+}
+
+.about {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(7, 78, 95);
+    border-left: 10px solid;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+#web-deve {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
 }
